@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A & J Tax Services | Trusted Tax Preparation</title>
+  <meta name="description" content="A & J Tax Services provides professional, accurate, and affordable tax preparation services for individuals and small businesses." />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #222;
+    }
+    header {
+      background: #0fb9b1; /* turquoise */
+      color: #fff;
+      padding: 1.5rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+    nav {
+      background: #000;
+      padding: 0.75rem;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #d4af37; /* gold */
+    }
+    section {
+      padding: 2.5rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .hero {
+      background: #f4f4f4;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      display: inline-block;
+      background: #0fb9b1;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #0aa39c;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 1.5rem;
+      background: #fff;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #0fb9b1;
+    }
+    .contact {
+      background: #f9f9f9;
+    }
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 1.25rem 1rem;
+      font-size: 0.9rem;
+    }
+    footer span {
+      color: #d4af37;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>A & J Tax Services</h1>
+    <p>Accurate • Affordable • Trusted Tax Preparation</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Let Us Handle Your Taxes With Confidence</h2>
+    <p>Serving individuals, families, and small businesses with professional tax solutions.</p>
+    <a href="#appointment" class="btn">Request an Appointment</a>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      A & J Tax Services is committed to providing reliable, ethical, and confidential tax preparation services.
+      We stay current with IRS regulations to help you maximize deductions while staying compliant.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Individual Tax Preparation</h3>
+        <p>Accurate filing for W-2, 1099, self-employed, and multi-state returns.</p>
+      </div>
+      <div class="card">
+        <h3>Small Business Taxes</h3>
+        <p>Schedule C, partnerships, and small business tax solutions.</p>
+      </div>
+      <div class="card">
+        <h3>IRS Compliance & Support</h3>
+        <p>Assistance with notices, audits, and prior-year tax issues.</p>
+      </div>
+      <div class="card">
+        <h3>Bank Products</h3>
+        <p>Refund options and advance products (when available) for qualified clients.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="appointment" class="contact">
+    <h2>Request an Appointment</h2>
+    <p>
+      You can schedule your appointment online using our secure booking system.
+    </p>
+    <p>
+      <a href="https://calendly.com/yourlink" target="_blank" class="btn">Book Online</a>
+    </p>
+    <p style="font-size:0.9rem; margin-top:0.5rem;">
+      (You may also request an appointment using the form below.)
+    </p>
+
+    <h3 style="margin-top:2rem;">Client Intake Form</h3>
+    <form>
+      <p>
+        <label>Full Name<br />
+          <input type="text" name="name" required style="width:100%; padding:0.5rem;" />
+        </label>
+      </p>
+      <p>
+        <label>Email Address<br />
+          <input type="email" name="email" required style="width:100%; padding:0.5rem;" />
+        </label>
+      </p>
+      <p>
+        <label>Phone Number<br />
+          <input type="tel" name="phone" required style="width:100%; padding:0.5rem;" />
+        </label>
+      </p>
+      <p>
+        <label>Type of Service Needed<br />
+          <select name="service" style="width:100%; padding:0.5rem;">
+            <option>Individual Tax Return</option>
+            <option>Self-Employed / 1099</option>
+            <option>Small Business Tax</option>
+            <option>Prior-Year Taxes</option>
+            <option>IRS Notice / Assistance</option>
+          </select>
+        </label>
+      </p>
+      <p>
+        <label>Message / Additional Details<br />
+          <textarea name="message" rows="4" style="width:100%; padding:0.5rem;"></textarea>
+        </label>
+      </p>
+      <p>
+        <button type="submit" class="btn">Submit Request</button>
+      </p>
+    </form>
+
+    <h3 style="margin-top:2rem;">Contact Information</h3>
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> 843-970-2654</p>
+    <p><strong>Email:</strong> keishahowell96@gmail.com</p>
+    <p><strong>Location:</strong> Columbus, MS</p>
+    <p><strong>Office Hours:</strong> Monday – Saturday | 9:00 AM – 6:00 PM</p>
+    <p>Appointments available in-person or virtually.</p>
+    <p style="font-size:0.9rem; margin-top:1rem;">
+      <strong>Refund Advance Disclaimer:</strong> Refund advance and bank products are offered through third-party financial institutions and are subject to approval. Approval is based on IRS acceptance, eligibility requirements, and lender criteria. Fees, terms, and conditions may apply.
+    </p>
+    <p style="font-size:0.9rem; margin-top:1rem;">
+      <strong>Compliance Notice:</strong> A &amp; J Tax Services is not affiliated with the Internal Revenue Service (IRS). 
+      All tax preparation services are provided in accordance with applicable federal and state tax laws. 
+      Results may vary based on individual circumstances.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 <span>A & J Tax Services</span>. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
